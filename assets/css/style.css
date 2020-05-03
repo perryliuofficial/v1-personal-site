@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.ppp-bg-one {
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../img/perry-bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ppp-bg-two {
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../img/header-bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .ppp-bg-one, .ppp-bg-two {
+    background-attachment: scroll;
+  }
+}
+
+
+.ppp-bg-grid {
+    background-image: repeating-linear-gradient(0deg, rgb(245, 245, 245) 0px, rgb(245, 245, 245) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(245, 245, 245) 0px, rgb(245, 245, 245) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(131,0%,98%),hsl(131,0%,98%));
+}
+
+.ppp-bg-grid2 {
+    background-image: repeating-linear-gradient(0deg, hsla(103,11%,32%,0.09) 0px, hsla(103,11%,32%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(90deg, hsla(103,11%,32%,0.09) 0px, hsla(103,11%,32%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, hsl(317,13%,6%),hsl(317,13%,6%));
+}
